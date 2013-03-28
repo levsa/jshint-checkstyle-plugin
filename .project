@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-  <name>jslint-checkstyle</name>
+  <name>jshint-checkstyle</name>
   <comment>This plug-in generates the trend report for
-    JSLint, an open source static code analysis program.</comment>
+    JSHint, an open source static code analysis program.</comment>
   <projects>
   </projects>
   <buildSpec>
