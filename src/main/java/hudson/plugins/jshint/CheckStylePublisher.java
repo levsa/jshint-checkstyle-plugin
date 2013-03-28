@@ -27,8 +27,7 @@ import hudson.plugins.jshint.parser.CheckStyleParser;
  * @author Ulli Hafner
  */
 public class CheckStylePublisher extends HealthAwarePublisher {
-    /** Unique ID of this class. */
-    private static final long serialVersionUID = -8330254754318036691L;
+    private static final long serialVersionUID = 6247593026437002124L;
 
     private static final String PLUGIN_NAME = "JSLINT";
 
@@ -137,7 +136,7 @@ public class CheckStylePublisher extends HealthAwarePublisher {
 
     @Override
     public BuildResult perform(final AbstractBuild<?, ?> build, final PluginLogger logger) throws InterruptedException, IOException {
-        logger.log("Collecting JSLint analysis files...");
+        logger.log("Collecting JSHint analysis files...");
 
         FilesParser parser = new FilesParser(PLUGIN_NAME, StringUtils.defaultIfEmpty(getPattern(), DEFAULT_PATTERN),
                 new CheckStyleParser(getDefaultEncoding()),
