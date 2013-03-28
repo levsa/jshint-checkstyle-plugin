@@ -1,4 +1,4 @@
 <div>
-  This plug-in collects the JSLint analysis results (in <a href="http://checkstyle.sourceforge.net/">Checkstyle</a> format)
+  This plug-in collects the JSHint analysis results (in <a href="http://checkstyle.sourceforge.net/">Checkstyle</a> format)
   of the project modules and visualizes the found warnings.
 </div>

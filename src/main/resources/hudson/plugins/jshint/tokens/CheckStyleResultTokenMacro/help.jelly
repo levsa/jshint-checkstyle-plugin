@@ -3,7 +3,7 @@
 
   <dt>$${CHECKSTYLE_RESULT}</dt>
   <dd>
-    Expands to the build result of the JSLint plug-in.
+    Expands to the build result of the JSHint plug-in.
   </dd>
 
 </j:jelly>
