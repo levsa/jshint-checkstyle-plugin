@@ -15,7 +15,7 @@ import hudson.plugins.analysis.core.BuildResult;
 @Deprecated
 public class CheckStyleMavenResult extends CheckStyleResult {
     /** Unique ID of this class. */
-    private static final long serialVersionUID = 6069200879553664629L;
+    private static final long serialVersionUID = -1487398972510148533L;
 
     /**
      * Creates a new instance of {@link CheckStyleMavenResult}.

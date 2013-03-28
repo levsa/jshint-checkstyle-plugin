@@ -12,7 +12,7 @@ import hudson.plugins.analysis.core.BuildResult;
  * @author Ulli Hafner
  */
 public class CheckStyleReporterResult extends CheckStyleResult {
-    private static final long serialVersionUID = -8901174632327541352L;
+    private static final long serialVersionUID = 3373733079078542356L;
 
     /**
      * Creates a new instance of {@link CheckStyleReporterResult}.

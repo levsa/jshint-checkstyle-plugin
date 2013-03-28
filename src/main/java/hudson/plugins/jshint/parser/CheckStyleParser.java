@@ -23,7 +23,7 @@ import hudson.plugins.analysis.util.model.Priority;
  */
 public class CheckStyleParser extends AbstractAnnotationParser {
     /** Unique identifier of this class. */
-    private static final long serialVersionUID = -8987893960059479567L;
+    private static final long serialVersionUID = 271820032161862402L;
 
     /**
      * Creates a new instance of {@link CheckStyleParser}.

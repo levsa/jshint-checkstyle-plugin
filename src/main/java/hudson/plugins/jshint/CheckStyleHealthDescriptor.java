@@ -12,8 +12,7 @@ import hudson.plugins.analysis.util.model.AnnotationProvider;
  * @author Ulli Hafner
  */
 public class CheckStyleHealthDescriptor extends AbstractHealthDescriptor {
-    /** Unique ID of this class. */
-    private static final long serialVersionUID = -5415415342684251597L;
+    private static final long serialVersionUID = -7267905095423327893L;
 
     /**
      * Creates a new instance of {@link CheckStyleHealthDescriptor} based on the

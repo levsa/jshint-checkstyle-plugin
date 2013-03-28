@@ -16,7 +16,7 @@ import hudson.plugins.jshint.rules.CheckStyleRules;
  */
 public class Warning extends AbstractAnnotation {
     /** Unique identifier of this class. */
-    private static final long serialVersionUID = -4136789364111214242L;
+    private static final long serialVersionUID = 8387037592966422304L;
 
     /** Origin of the annotation. */
     public static final String ORIGIN = "checkstyle";
