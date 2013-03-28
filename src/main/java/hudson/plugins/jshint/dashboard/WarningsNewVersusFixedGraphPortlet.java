@@ -46,7 +46,7 @@ public final class WarningsNewVersusFixedGraphPortlet extends AbstractWarningsGr
 
     @Override
     protected String getPluginName() {
-        return "jslint-checkstyle";
+        return "jshint-checkstyle";
     }
 
     @Override

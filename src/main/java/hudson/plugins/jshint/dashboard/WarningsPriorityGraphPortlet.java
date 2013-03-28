@@ -46,7 +46,7 @@ public final class WarningsPriorityGraphPortlet extends AbstractWarningsGraphPor
 
     @Override
     protected String getPluginName() {
-        return "jslint-checkstyle";
+        return "jshint-checkstyle";
     }
 
     @Override
