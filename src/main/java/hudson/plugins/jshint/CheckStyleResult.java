@@ -17,7 +17,7 @@ import hudson.plugins.jshint.parser.Warning;
  * @author Ulli Hafner
  */
 public class CheckStyleResult extends BuildResult {
-    private static final long serialVersionUID = 840050104901025265L;
+    private static final long serialVersionUID = 6021253158350923772L;
 
     /**
      * Creates a new instance of {@link CheckStyleResult}.
@@ -93,7 +93,7 @@ public class CheckStyleResult extends BuildResult {
      */
     @Override
     protected String getSerializationFileName() {
-        return "jslint-warnings.xml";
+        return "jshint-warnings.xml";
     }
 
     /** {@inheritDoc} */
