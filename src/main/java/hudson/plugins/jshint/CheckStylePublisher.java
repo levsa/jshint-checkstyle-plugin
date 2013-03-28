@@ -29,7 +29,7 @@ import hudson.plugins.jshint.parser.CheckStyleParser;
 public class CheckStylePublisher extends HealthAwarePublisher {
     private static final long serialVersionUID = 6247593026437002124L;
 
-    private static final String PLUGIN_NAME = "JSLINT";
+    private static final String PLUGIN_NAME = "JSHINT";
 
     /** Default Checkstyle pattern. */
     private static final String DEFAULT_PATTERN = "**/jshint-result.xml";

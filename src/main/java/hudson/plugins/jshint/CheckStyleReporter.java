@@ -32,7 +32,7 @@ import hudson.remoting.VirtualChannel;
 public class CheckStyleReporter extends HealthAwareReporter<CheckStyleResult> {
     private static final long serialVersionUID = 7506098606389929783L;
 
-    private static final String PLUGIN_NAME = "JSLINT";
+    private static final String PLUGIN_NAME = "JSHINT";
 
     /** Default Checkstyle pattern. */
     private static final String CHECKSTYLE_XML_FILE = "jshint-result.xml";
