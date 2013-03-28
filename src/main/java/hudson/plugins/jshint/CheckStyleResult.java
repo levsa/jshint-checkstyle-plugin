@@ -78,7 +78,7 @@ public class CheckStyleResult extends BuildResult {
 
     @Override
     public String getSummary() {
-        return "JSLint: " + createDefaultSummary(CheckStyleDescriptor.RESULT_URL, getNumberOfAnnotations(), getNumberOfModules());
+        return "JSHint: " + createDefaultSummary(CheckStyleDescriptor.RESULT_URL, getNumberOfAnnotations(), getNumberOfModules());
     }
 
     @Override
