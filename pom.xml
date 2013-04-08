@@ -17,6 +17,14 @@
     JSHint reports in Checkstyle format. JSHint is an open
     source static code analysis program.</description>
 
+  <developers>
+    <developer>
+        <id>levsa</id>
+        <name>Levon Saldamli</name>
+        <email>levon.sa@gmail.com</email>
+    </developer>
+  </developers>
+
   <licenses>
     <license>
       <name>MIT license</name>
