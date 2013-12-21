@@ -106,7 +106,7 @@ public class CheckStyleParser extends AbstractAnnotationParser {
                         priority = Priority.LOW;
                     }
                     else {
-                        continue; // ignore
+                        priority = Priority.NORMAL;
                     }
                     String source = error.getSource();
                     String type = StringUtils.substringAfterLast(source, ".");
